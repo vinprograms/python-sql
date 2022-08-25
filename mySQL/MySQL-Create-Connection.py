@@ -34,5 +34,6 @@ def create_database(connection, query):
         print(f"The error [{e}] occurred")
 
 connection = create_connection("localhost", "root", "LearningSQL2022", "sm_app") # connection object to the database server
+
 #create_database_query = "CREATE DATABASE sm_app"
 #create_database(connection, create_database_query)
